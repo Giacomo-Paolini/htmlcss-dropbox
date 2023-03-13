@@ -22,3 +22,7 @@ nav > div > :nth-child(-n+3) {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+.container-team {
+    height: 10em;
+}

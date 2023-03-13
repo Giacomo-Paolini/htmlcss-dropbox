@@ -6,7 +6,6 @@
 }
 
 nav {
-    width: 100vw;
     min-height: 5em;
 }
 
@@ -39,6 +38,10 @@ nav {
 
 .align-middle {
     vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .boxed {
