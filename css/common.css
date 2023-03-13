@@ -23,11 +23,12 @@ nav {
     align-items: center;
 }
 
-.direction-column {
+.direction-column-between {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .padding-1 {
     padding: 1em;
 }
@@ -55,6 +56,7 @@ h2 {
     text-align: left;
     font-size: 3em;
     padding-top: 1.5em;
+    padding-bottom: 0.5em;
 }
 
 p {
@@ -63,6 +65,10 @@ p {
 
 input {
     margin-top: 2em;
+}
+
+.width20 {
+    width: 20%;
 }
 
 .width30 {
