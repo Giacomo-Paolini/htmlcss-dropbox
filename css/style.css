@@ -15,11 +15,3 @@ nav > div > :nth-child(-n+3) {
     height: 45em;
     background-color: #B4D0E7;
 }
-
-.width30 {
-    width: 30%;
-}
-
-.width70 {
-    width: 70%;
-}

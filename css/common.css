@@ -8,7 +8,6 @@
 nav {
     width: 100vw;
     min-height: 5em;
-    background-color: rgb(255, 186, 37);
 }
 
 .block {
@@ -52,10 +51,31 @@ h1 {
     padding-top: 1em;
 }
 
+h2 {
+    text-align: left;
+    font-size: 3em;
+    padding-top: 1.5em;
+}
+
 p {
     font-size: large;
 }
 
+input {
+    margin-top: 2em;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width70 {
+    width: 70%;
+}
+
+label {
+    margin-right: 1.5em;
+}
 
 /********** COLORI **********/
 
@@ -69,4 +89,8 @@ p {
 
 .red {
     background-color: red;
+}
+
+.orange {
+    background-color: orange;
 }
