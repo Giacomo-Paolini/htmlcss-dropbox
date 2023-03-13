@@ -1,7 +1,8 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
 }
 
 nav {
@@ -10,12 +11,12 @@ nav {
     background-color: rgb(255, 186, 37);
 }
 
-.flex {
-    display: flex;
-}
-
 .block {
     display: block;
+}
+
+.flex {
+    display: flex;
 }
 
 .justify-between {
@@ -23,16 +24,47 @@ nav {
     align-items: center;
 }
 
+.direction-column {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 .padding-1 {
     padding: 1em;
+}
+
+.margin-top-2 {
+    margin-top: 2em;
 }
 
 .align-middle {
     vertical-align: middle;
 }
 
+.boxed {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: left;
+    font-size: 4.5em;
+    padding-top: 1em;
+}
+
+p {
+    font-size: large;
+}
+
+
+/********** COLORI **********/
+
 .blue {
     background-color: blue;
+}
+
+.black {
+    color: black;
 }
 
 .red {

@@ -1,3 +1,25 @@
 nav > div > :nth-child(-n+3) {
     margin-right: 1.5em;
 }
+
+.jumbo {
+    width: 100%;
+    margin-bottom: -48px;
+}
+
+#arrow-down {
+    font-size: 3em;
+}
+
+.container-azure {
+    height: 45em;
+    background-color: #B4D0E7;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width70 {
+    width: 70%;
+}
