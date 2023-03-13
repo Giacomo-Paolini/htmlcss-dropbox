@@ -97,14 +97,30 @@ label {
     gap: 15px;
 }
 
+.square {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
+}
+
+.big-square {
+    width: 52.98em;
+    aspect-ratio: auto 1 / 1;
+
+    background-color: aqua;
+}
+
 /********** COLORI **********/
+
+.black {
+    color: black;
+}
 
 .blue {
     background-color: blue;
 }
 
-.black {
-    color: black;
+.bg-black {
+    background-color: black;
 }
 
 .red {
