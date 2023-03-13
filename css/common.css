@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    min-height: 5em;
+    background-color: rgb(255, 186, 37);
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    display: block;
+}
+
+.justify-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padding-1 {
+    padding: 1em;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
