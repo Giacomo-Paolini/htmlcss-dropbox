@@ -47,9 +47,17 @@ button:hover {
     align-items: flex-start;
     gap: 40px;
 }
+.padding-05 {
+    padding: 0.5em;
+}
 
 .padding-1 {
     padding: 1em;
+}
+
+.padding-plans {
+    padding: 2.5em;
+    padding-top: 1em;
 }
 
 .margin-top-1.5 {
@@ -91,10 +99,11 @@ button:hover {
     margin: 0 auto;
 }
 
-.boxed-language {
+.boxed-short {
     max-width: 100px;
     margin-left: 0;
     margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 h1 {
@@ -119,16 +128,28 @@ p {
     font-size: large;
 }
 
+span {
+    font-size: 17px;
+}
+
 input {
     margin-top: 2em;
 }
 
-.width20 {
+.width0 {
     width: 20%;
+}
+
+.width25 {
+    width: 25%;
 }
 
 .width30 {
     width: 30%;
+}
+
+.width32 {
+    width: 32%;
 }
 
 .width70 {
@@ -140,7 +161,11 @@ label {
 }
 
 .border {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
+}
+
+.border-only-bottom {
+    border-bottom: 1px solid lightgray;
 }
 
 .gap {
@@ -160,16 +185,29 @@ label {
     display: none;
 }
 
-li {
+footer > li {
     list-style: none;
     color: white;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
+li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
 footer {
     margin-top: 100px;
     height: 20em;
+}
+
+.single-line {
+    align-self: center;
+}
+
+.button-plans {
+    width: 100%;
 }
 
 /********** COLORI **********/
@@ -180,6 +218,10 @@ footer {
 
 .blue {
     background-color: blue;
+}
+
+.azure {
+    color: rgb(26, 112, 170);
 }
 
 .bg-black {

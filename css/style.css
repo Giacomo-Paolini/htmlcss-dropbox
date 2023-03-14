@@ -67,3 +67,7 @@ nav > div > :nth-child(-n+3) {
     width: 50%;
     height: 50%;
 }
+
+.height-colomn-plans {
+    height: 57.7em;
+}
