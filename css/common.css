@@ -55,6 +55,10 @@ button:hover {
     padding: 1em;
 }
 
+.padding-2 {
+    padding: 2em;
+}
+
 .padding-plans {
     padding: 2.5em;
     padding-top: 1em;
@@ -66,10 +70,6 @@ button:hover {
 
 .margin-top-2 {
     margin-top: 2em;
-}
-
-.margin-top-3 {
-    margin-top: 4.2em;
 }
 
 .margin-top-402 {
@@ -120,6 +120,7 @@ button:hover {
     margin-left: 0;
     margin-top: 2em;
     margin-bottom: 2em;
+    border: 1px solid lightgray;
 }
 
 h1 {
@@ -224,6 +225,10 @@ footer {
 
 .button-plans {
     width: 100%;
+}
+
+.overflowy {
+    overflow-y: scroll;
 }
 
 /********** COLORI **********/

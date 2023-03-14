@@ -56,7 +56,7 @@ nav > div > :nth-child(-n+3) {
 }
 
 .container-squares {
-    margin-top: 5em;
+    margin-top: 10em;
 }
 
 .square-column {
@@ -85,4 +85,66 @@ nav > div > :nth-child(-n+3) {
 
 #button-partner:hover {
     background-color: #9bbef8;
+}
+
+svg {
+    width: 50%;
+}
+
+.designit-green {
+    background-color: #A2D39B;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #D1E9CD;
+}
+
+.arizona-university{
+    background-color: #61082B;
+    justify-content: center;
+    align-items: center;
+}
+
+.university-florida {
+    background-color: #0093CE;
+    justify-content: center;
+    align-items: center;
+}
+
+.topps {
+    background-color: #FF1C1C;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-bicycle {
+    background-color: #FF1C1C;
+    justify-content: center;
+    align-items: center;
+}
+
+.hearst-corp {
+    background-color: #B4D0E7;
+    justify-content: center;
+    align-items: center;
+}
+
+.lonely-planet {
+    background-color: #0D2481;
+    justify-content: center;
+    align-items: center;
+}
+
+.clear-channel {
+    background-color: #FFD830;
+    justify-content: center;
+    align-items: center;
+}
+
+path {
+    fill: white;
+    width: 50%;
+}
+
+.designit-middle {
+    width: 60%;
 }
