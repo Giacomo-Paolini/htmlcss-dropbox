@@ -57,6 +57,17 @@ nav {
     margin: 0 auto;
 }
 
+.boxed-footer {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.boxed-language {
+    max-width: 100px;
+    margin-left: 0;
+    margin-top: 2em;
+}
+
 h1 {
     text-align: left;
     font-size: 4.5em;
@@ -67,6 +78,10 @@ h2 {
     text-align: left;
     font-size: 3em;
     padding-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.8em;
 }
 
 p {
@@ -114,7 +129,17 @@ label {
     display: none;
 }
 
+li {
+    list-style: none;
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
+footer {
+    margin-top: 100px;
+    height: 20em;
+}
 
 /********** COLORI **********/
 
@@ -136,4 +161,12 @@ label {
 
 .orange {
     background-color: orange;
+}
+
+.white {
+    color: white;
+}
+
+.lightgray {
+    color: lightgray;
 }
