@@ -40,6 +40,10 @@ nav {
     margin-top: 2em;
 }
 
+.margin-bottom-2 {
+    margin-bottom: 2em;
+}
+
 .align-middle {
     vertical-align: middle;
 }
@@ -49,7 +53,7 @@ nav {
 }
 
 .boxed {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -98,16 +102,19 @@ label {
 }
 
 .square {
-    width: calc(100% / 2);
-    aspect-ratio: 1 / 1;
+    width: 50%;
+    height: 50%;
 }
 
-.big-square {
-    width: 52.98em;
-    aspect-ratio: auto 1 / 1;
-
-    background-color: aqua;
+.faq-arrow:active {
+    transform: rotate(180deg);
 }
+
+.faq {
+    display: none;
+}
+
+
 
 /********** COLORI **********/
 

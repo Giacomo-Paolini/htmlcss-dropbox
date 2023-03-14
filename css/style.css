@@ -55,11 +55,15 @@ nav > div > :nth-child(-n+3) {
 }
 
 .container-squares {
-    width: 100%;
-    height: 40em;
     margin-top: 5em;
 }
 
-.container-squares-smaller {
+.square-column {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.container-squares-smaller {
+    width: 50%;
+    height: 50%;
 }
