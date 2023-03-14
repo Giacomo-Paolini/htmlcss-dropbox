@@ -3,13 +3,13 @@ nav > div > :nth-child(-n+3) {
 }
 
 .container-jumbo {
-    height: 45em;
+    height: 48em;
     background-color: #B4D0E7;
 }
 
 .jumbo {
+    position: relative;
     width: 100%;
-    margin-bottom: -48px;
 }
 
 #arrow-down {

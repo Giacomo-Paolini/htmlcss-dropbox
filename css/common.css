@@ -9,6 +9,21 @@ nav {
     min-height: 5em;
 }
 
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #0061FF;
+    color: white;
+    padding: 1em;
+    border: none;
+}
+
+button:hover {
+    background-color: #5496ff;
+}
+
 .block {
     display: block;
 }
@@ -28,16 +43,25 @@ nav {
 
 .direction-column-between {
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     align-items: flex-start;
+    gap: 40px;
 }
 
 .padding-1 {
     padding: 1em;
 }
 
+.margin-top-1.5 {
+    margin-top: 1.5em;
+}
+
 .margin-top-2 {
     margin-top: 2em;
+}
+
+.margin-top-3 {
+    margin-top: 4.2em;
 }
 
 .margin-bottom-2 {
@@ -57,6 +81,11 @@ nav {
     margin: 0 auto;
 }
 
+.boxed-jumbo {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
 .boxed-footer {
     max-width: 1400px;
     margin: 0 auto;
@@ -70,8 +99,10 @@ nav {
 
 h1 {
     text-align: left;
-    font-size: 4.5em;
+    font-size: 5.5em;
     padding-top: 1em;
+    padding-left: 16px;
+    font-weight: 900;
 }
 
 h2 {
