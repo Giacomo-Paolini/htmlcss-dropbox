@@ -26,6 +26,7 @@ nav > div > :nth-child(-n+3) {
 
 .container-team {
     height: 10em;
+    padding: 2em;
 }
 
 .container-partner {
@@ -70,4 +71,14 @@ nav > div > :nth-child(-n+3) {
 
 .height-colomn-plans {
     height: 57.7em;
+}
+
+#button-partner {
+    background-color: transparent;
+    color: black;
+    margin-top: 2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
 }
