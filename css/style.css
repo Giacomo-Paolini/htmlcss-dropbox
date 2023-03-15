@@ -24,6 +24,10 @@ nav > div > :nth-child(-n+3) {
     margin-top: 2.5em;
 }
 
+.scroll-margin-top {
+    scroll-margin-top: 7em;
+}
+
 .container-team {
     height: 15em;
     padding: 2em;
