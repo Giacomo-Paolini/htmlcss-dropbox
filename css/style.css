@@ -223,3 +223,18 @@ li > a > h5 {
 .link-underline {
     text-decoration: underline;
 }
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    vertical-align: -0.4em;
+}
+
+input[type="radio"]:checked {
+    border: 5px solid #0061FF;
+}
