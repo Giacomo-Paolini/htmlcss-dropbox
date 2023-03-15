@@ -214,14 +214,6 @@ label {
     height: 50%;
 }
 
-.faq-arrow:active {
-    transform: rotate(180deg);
-}
-
-.faq {
-    display: none;
-}
-
 footer > li {
     list-style: none;
     color: white;
