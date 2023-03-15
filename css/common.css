@@ -36,6 +36,10 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .justify-between {
     justify-content: space-between;
     align-items: center;
@@ -265,6 +269,10 @@ footer {
     background-color: black;
 }
 
+.bordeaux {
+    color: #61082B;
+}
+
 .red {
     background-color: red;
 }
@@ -280,3 +288,4 @@ footer {
 .lightgray {
     color: lightgray;
 }
+
