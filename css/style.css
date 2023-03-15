@@ -209,3 +209,17 @@ footer > div > div > ul > li > h3 {
 footer > div > div > ul > li > a > h5 {
     color: white;
 }
+
+li > a > h5 {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+
+.padding-left-list {
+    padding-left: 0.5em;
+}
+
+.link-underline {
+    text-decoration: underline;
+}

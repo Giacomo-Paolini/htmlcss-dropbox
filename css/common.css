@@ -36,6 +36,11 @@ button:hover {
     flex-wrap: wrap;
 }
 
+.justify-column {
+    justify-content: center;
+    align-items: center;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -61,6 +66,10 @@ button:hover {
 
 .padding-2 {
     padding: 2em;
+}
+
+.padding-8 {
+    padding: 8em;
 }
 
 .padding-plans {
@@ -127,10 +136,26 @@ button:hover {
     margin: 0 auto;
 }
 
-.boxed-short {
+.boxed-short-plans {
     max-width: 100px;
     margin-left: 0;
     margin-top: 2em;
+    margin-bottom: 2em;
+    border: 1px solid lightgray;
+}
+
+.boxed-short-square {
+    max-width: 100px;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 1px solid lightgray;
+}
+
+.boxed-short-footer {
+    max-width: 100px;
+    margin-left: 0;
+    margin-top: 6em;
     margin-bottom: 2em;
     border: 1px solid lightgray;
 }
@@ -205,6 +230,10 @@ label {
     gap: 15px;
 }
 
+.gap-plan {
+    gap: 5px;
+}
+
 .gap-team {
     gap: 80px;
 }
@@ -227,8 +256,7 @@ li {
 }
 
 footer {
-    /* margin-top: 100px; */
-    min-height: 20em;
+    min-height: 40em;
 }
 
 .single-line {
