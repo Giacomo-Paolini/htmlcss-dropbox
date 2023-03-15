@@ -200,3 +200,12 @@ path {
 .faq:hover a i {
     transform: rotate(180deg);
 }
+
+footer > div > div > ul > li > h3 {
+    margin-bottom: 1em;
+    font-size: 2.2em;
+}
+
+footer > div > div > ul > li > a > h5 {
+    color: white;
+}

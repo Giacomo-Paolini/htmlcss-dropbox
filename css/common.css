@@ -227,8 +227,8 @@ li {
 }
 
 footer {
-    margin-top: 100px;
-    height: 20em;
+    /* margin-top: 100px; */
+    min-height: 20em;
 }
 
 .single-line {
