@@ -27,11 +27,6 @@ nav > div > :nth-child(-n+3) {
 .container-team {
     height: 15em;
     padding: 3em;
-    padding-top: 7em;
-    padding-left: 0em;
-    gap: 10%;
-    display: flex;
-    justify-content: space-between;
 }
 
 .container-partner {
@@ -156,6 +151,16 @@ path {
 
 .designit-middle {
     width: 60%;
+}
+
+.container-free-trial {
+    height: 15em;
+    padding: 3em;
+    padding-top: 7em;
+    padding-left: 0em;
+    gap: 10%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .free-trial {
